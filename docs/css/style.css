@@ -1005,8 +1005,7 @@ body.ie ._ibg img {
   white-space: nowrap;
 }
 
-.bottom-header__container {
-  height: 63px;
+.bottom-header__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1016,6 +1015,7 @@ body.ie ._ibg img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 63px;
 }
 
 .bottom-header__column {
@@ -1213,6 +1213,10 @@ body.ie ._ibg img {
     font-size: 16px;
   }
 
+  .bottom-header__row {
+    padding: 0 10px;
+  }
+
   .actions-header {
     font-size: 16px;
   }
@@ -1358,6 +1362,10 @@ body.ie ._ibg img {
 
   .contacts-header__item_second-phone {
     display: none;
+  }
+
+  .bottom-header__row {
+    padding: 0;
   }
 
   .actions-header__item {

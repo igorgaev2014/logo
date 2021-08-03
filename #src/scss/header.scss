@@ -308,11 +308,21 @@
 
 .bottom-header {
 
-	&__container {
-		height: 63px;
+	&__container {}
+
+	&__row {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		height: 63px;
+
+		@media (max-width: $md1+px) {
+			padding: 0 10px;
+		}
+
+		@media (max-width: $md2+px) {
+			padding: 0;
+		}
 	}
 
 	&__column {
